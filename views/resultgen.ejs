@@ -1,0 +1,19 @@
+<%- include('components/importlink.ejs') %>
+<%- include('components/navbar.ejs') %>
+    <div class="container">
+      <h1><%= title %></h1>
+      <p>Welcome to <%= title %></p>
+      
+      <div class="card" style="width: 18rem;">
+        <a href="<%=src%>" download>  
+          <img src=<%=src%> class="card-img-top" alt="QR code image">
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">ລິ້ງ: <a href=<%= longUrl %> target="_blank"> <%= longUrl %></a></h5>
+          <p class="card-text">ກົດທີ່ຮູບພາບ ຫຼື ປຸ່ມດາວໂຫຼດ QR code ເພື່ອດາວໂຫຼດຮູບ QR code.</p>
+          <a href="<%=src%>" class="btn btn-primary" download>ດາວໂຫຼດ QR code</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

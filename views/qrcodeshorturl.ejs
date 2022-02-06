@@ -1,0 +1,22 @@
+<%- include('components/importlink.ejs') %>
+<%- include('components/navbar.ejs') %>
+    <div class="container">
+      <h1><%= title %></h1>
+      <p>Welcome to <%= title %></p>
+      <div class="row">
+          <div class="col-md-3 col-ms-12 col-lg-3"></div>
+          <div class="col-md-6 col-ms-12 col-lg-6">
+              <form action="/generateqrcode" method="post">
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">ປ້ອນລິ້ງ</label>
+                    <input class="form-control" type="text" name="txtqrcode" placeholder="ປ້ອນລິ້ງເພື່ອແປງເປັນ QRcode" aria-label="default input example" required>
+                </div>
+                <div class="mb-3 text-center">
+                    <button class="btn btn-primary" type="submit"><i class="fas fa-qrcode"></i> ແປງເປັນ QR code</button>
+                </div>
+              </form>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>

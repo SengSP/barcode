@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Phetsarath OT";
+  src: url(../fonts/Phetsarath-Bold.ttf);
+}
+
+div {
+  font-family: "Phetsarath OT";
+  src: url(../fonts/Phetsarath-Bold.ttf)
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "Phetsarath OT";
+  src: url(../fonts/Phetsarath-Bold.ttf)
+}
+
+body {
+  font-family: "Phetsarath OT";
+  src: url(../fonts/Phetsarath-Bold.ttf);
+}
+
